@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: grey;
+}
+
+main a {
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 30px;
+    background: linear-gradient(180deg,red,lime,red);
+}
+
+
+h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main {
+margin-top:100px ;    
+display: flex;
+align-items: center;
+flex-direction: column;
+padding: 10px;
+}
+
+.contexHisto {
+    background: linear-gradient(90deg,limegreen,darkblue,limegreen);
+    padding: 20px;
+    border-radius: 30px;
+    color: aliceblue;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.container-historia {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+    flex-wrap: wrap;
+   margin-top: 30px;
+}
+
+.tarjetas {
+    width: 300px;
+    height: 100%;
+    background-color: lime;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.RequisitosUtn {
+    margin: 30px;
+    padding: 30px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    color: aliceblue;
+    
+}
+
+.container-indus {
+    padding: 30px;
+    background-color: brown;
+    border-radius: 20px;
+    color: aliceblue;
+    margin-top: 30px;
+    position: relative;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.info2 {
+    background-color: gray;
+    position: absolute;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.cusraditoInfo3 { 
+    position: absolute;
+    background-color: greenyellow;
+    padding: 30px;
+    border-radius: 30px;
+    color: black;
+}
+
+.container-dif {
+    background-color: aqua;
+    padding: 40px;
+    border-radius: 30px;
+    margin: 40px;
+}
+
+.conformacionUtn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.facultades {
+    background-color: cadetblue;
+    padding: 30px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+.facultadesReginales {
+    background-color: chocolate;
+    padding: 30px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+.conDir {
+    background-color: crimson;
+    padding: 30px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+.conforCose {
+    background-color: darkblue;
+    padding: 30px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+.asamUni {
+    background-color: limegreen;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 30px;
+    color: aliceblue;
+}
+
+.conSup {
+    background-color: rebeccapurple;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 30px;
+    color: aliceblue;
+}
+
+.recVirec {
+    background-color: chartreuse;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.asamreg {
+    background-color: darkorchid;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.asamReg {
+    background: linear-gradient(90deg,lime,green);
+    padding: 30px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+}
+
+.consDirec{
+    background: linear-gradient(90deg, red,lime);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.decaVisedeca {
+    background: linear-gradient(90deg, violet,lime);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 30px;
+}
+
+.conseDeto {
+    background: linear-gradient(90deg, blue,lime);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 30px;
+    color: aliceblue;
+}
+
+.direc {
+    background: linear-gradient(90deg, blue,red);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 30px;
+    color: aliceblue;
+}
+
+.main-videos {
+    background-color: gray;
+}
+
+.InformacionExtra {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.exmen {
+    color: brown;
+    cursor: pointer;
+}
+
+.exmen:hover {
+    color: blue;
+    zoom: 1.1;
+}
+
+table { width: 100%; border-collapse: collapse; 
+margin: 30px;
+} 
+th, td { border: 1px solid #ddd; padding: 8px; text-align: left; 
+;} 
+th { background-color: #f2f2f2; } 
+tr:nth-child(even) { background-color: #f9f9f9;
+}
